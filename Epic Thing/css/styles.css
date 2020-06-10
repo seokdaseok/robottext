@@ -1,0 +1,62 @@
+body {
+  background-color: #3797a4;
+  text-align: center;
+  padding: 2rem 3rem 5rem;
+}
+
+h2 {
+  font-family: 'Comic Neue', cursive;
+}
+
+.title {
+  color: #f4f7c5;
+  font-size: 4rem;
+  font-family: 'Montaga', serif;
+}
+
+.warning {
+  color: #303960;
+  font-size: 2rem;
+}
+
+.row {
+  padding-top: 4rem;
+}
+
+.text-container {
+  padding: 1rem;
+  border: solid black;
+  border-width: 5px;
+  background-color: #eeeeee;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+  color: #3f3f44;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bolder;
+}
+
+.button {
+  margin: 2rem;
+  width: 15%;
+  padding: 1rem 0;
+  background-color: #abf0e9;
+}
+
+.button-text {
+  font-size: 2rem;
+  font-family: 'Comic Neue', cursive;
+}
+
+.press {
+  background-color: #63b7af;
+  text-shadow: 3px 3px 3px #3f3f44;
+}
+
+@media (max-width: 924px) {
+  .button {
+    width: 20%;
+  }
+}
